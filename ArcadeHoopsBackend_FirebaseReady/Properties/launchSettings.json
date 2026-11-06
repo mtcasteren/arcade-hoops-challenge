@@ -1,0 +1,14 @@
+{
+    "profiles": {
+        "ArcadeHoopsBackend_FirebaseReady": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "applicationUrl": "https://localhost:54515;http://localhost:54514",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

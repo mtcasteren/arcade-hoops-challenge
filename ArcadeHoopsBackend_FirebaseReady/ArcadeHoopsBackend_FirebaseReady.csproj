@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <AssemblyName>ArcadeHoopsBackend_FirebaseReady</AssemblyName>
+    <RootNamespace>ArcadeHoopsBackend_FirebaseReady</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Services\InMemoryService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.0" />
+  </ItemGroup>
+</Project>

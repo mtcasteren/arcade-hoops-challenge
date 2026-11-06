@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+# Visual Studio
+.vs/
+*.user
+*.suo
+# Secrets (never commit these)
+.env
+*firebase-adminsdk*.json
+serviceAccount*.json
+appsettings.Development.json
+# OS
+.DS_Store
+Thumbs.db
